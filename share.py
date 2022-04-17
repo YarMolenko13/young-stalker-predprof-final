@@ -273,13 +273,14 @@ def astar(maze, start, end):
             open_list.append(child)
 
 
-def calc_path():
+def calc_path(a, b):
 
 
     start = (0, 0)
     end = (29, 39)
 
     path = astar(maze, start, end)
+    return path
 
 
 for i in anomalies:
@@ -288,4 +289,8 @@ for i in range(30):
     for j in range(40):
         print(maze[i][j], end=" ")
     print()
+paths = calc_path(0, 0)
+for i in paths:
+    maze[i[0]][i[1]] = 3
+
 

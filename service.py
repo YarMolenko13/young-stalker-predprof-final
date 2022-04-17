@@ -14,6 +14,8 @@ def draw_swans(coords):
                     fill = "blue"
                 elif coords[y][x] == 2:
                     fill = "red"
+                elif coords[y][x] == 3:
+                    fill = "green"
                 if coords[y][x] != 0:
                     draw.rectangle(
                         (5 + (50 * x),
