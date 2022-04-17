@@ -163,7 +163,7 @@ for i in range(30):
         for anom in anomalies:
             d = (anom[0] - j) ** 2 + (anom[1] - i) ** 2
             if d == 0:
-                maze[i][j] = 1
+                maze[i][j] = 2
                 continue
             power = anom[2] / d
             print(power, end=" ")
@@ -279,7 +279,7 @@ def astar(maze, start, end):
             open_list.append(child)
 
 
-def main():
+def calc_path():
 
 
     start = (0, 0)
