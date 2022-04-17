@@ -155,8 +155,7 @@ for anom_name in ides:
                     break
             else:
                 anomalies.append([j, i, round(test_value)])
-for i in range(len(ides)):
-    print(ides[i], anomalies[i])
+
 
 for i in range(30):
     for j in range(40):
@@ -166,14 +165,10 @@ for i in range(30):
                 maze[i][j] = 2
                 continue
             power = anom[2] / d
-            print(power, end=" ")
             if power >= 2:
                 maze[i][j] = 1
 
-for i in range(30):
-    for j in range(40):
-        print(maze[i][j], end=" ")
-    print()
+
 
 
 
@@ -286,4 +281,4 @@ def calc_path():
     end = (29, 39)
 
     path = astar(maze, start, end)
-    print(path)
+
