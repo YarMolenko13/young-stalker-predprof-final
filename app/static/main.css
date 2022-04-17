@@ -1,0 +1,32 @@
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  margin: 0;
+  position: relative;
+  background: #233814;
+}
+
+.content {
+  overflow: hidden;
+  display: flex;
+}
+
+.content img {
+  height: 100vh;
+}
+
+.form {
+   padding: 30px 10px 0 30px; 
+}

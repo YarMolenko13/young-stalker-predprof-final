@@ -1,16 +1,15 @@
 from config import *
 
 from flask_sqlalchemy import SQLAlchemy
-from flask import Flask
+from flask import Flask, render_template
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URL'] = DATABASE_URL
-db = SQLAlchemy(app)
+app = Flask(__name__, template_folder="app/templates", static_folder="app/static")
+
 
 
 @app.get("/")
 def index():
-    return "index page"
+    return render_template("index.html")
 
 
 if __name__ == "__main__":

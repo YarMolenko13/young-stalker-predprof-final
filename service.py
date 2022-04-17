@@ -21,8 +21,8 @@ def draw_swans(coords):
                          45 + (50 * x),
                          45 + (50 * y)),
                         fill=fill)
-        # image.show()
-        image.save("app/output/image1.png")
+        image.show()
+        image.save("app/static/image.png")
     except FileNotFoundError:
         # TODO
         print("Файл не найден")
