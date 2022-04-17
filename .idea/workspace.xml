@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="27uvMB6VPWMPv99IY0PDLFMT37C" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -73,22 +76,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="961" y="375" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1650182886398" />
-    <state width="2527" height="371" key="GridCell.Tab.0.bottom" timestamp="1650183049879">
+    <state width="2527" height="371" key="GridCell.Tab.0.bottom" timestamp="1650183058395">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2527" height="371" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1650183049879" />
-    <state width="2527" height="371" key="GridCell.Tab.0.center" timestamp="1650183049879">
+    <state width="2527" height="371" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1650183058395" />
+    <state width="2527" height="371" key="GridCell.Tab.0.center" timestamp="1650183058395">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2527" height="371" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1650183049879" />
-    <state width="2527" height="371" key="GridCell.Tab.0.left" timestamp="1650183049879">
+    <state width="2527" height="371" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1650183058395" />
+    <state width="2527" height="371" key="GridCell.Tab.0.left" timestamp="1650183058395">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2527" height="371" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1650183049879" />
-    <state width="2527" height="371" key="GridCell.Tab.0.right" timestamp="1650183049879">
+    <state width="2527" height="371" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1650183058395" />
+    <state width="2527" height="371" key="GridCell.Tab.0.right" timestamp="1650183058395">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2527" height="371" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1650183049879" />
+    <state width="2527" height="371" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1650183058395" />
     <state x="841" y="440" key="com.intellij.ide.util.TipDialog" timestamp="1650182738767">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
