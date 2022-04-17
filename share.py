@@ -170,11 +170,6 @@ for i in range(30):
             if power >= 2:
                 maze[i][j] = 1
 
-for i in range(30):
-    for j in range(40):
-        print(maze[i][j], end=" ")
-    print()
-
 
 
 
@@ -287,3 +282,10 @@ def calc_path():
 
     path = astar(maze, start, end)
     print(path)
+
+for i in anomalies:
+    maze[i[1]][i[0]] = 2
+for i in range(30):
+    for j in range(40):
+        print(maze[i][j], end=" ")
+    print()
